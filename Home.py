@@ -168,7 +168,7 @@ uploaded_file=st.file_uploader("Upload File")
 st.camera_input("Take a photo of your self")
 st.image("test.jpg")
 
-photo_taken=st.camera_input("Take a photo of your self")
+photo_taken=st.camera_input("Take a photos of your self")
 if photo_taken:
   st.image(photo_taken, width=200)
 
